@@ -13,7 +13,7 @@ jobs:
         run: echo "Welcom From Github Actions Workflow!!"
 
       - name: Checkout Repo
-        run: actions/checkout@v7.0.0
+        uses: actions/checkout@v7.0.0
 
       - name: List repo files
         run: ls -la
